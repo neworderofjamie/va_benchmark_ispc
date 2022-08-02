@@ -1,4 +1,4 @@
-GENERATED_CODE_DIR		:=va_benchmark_ISPC_CODE
+GENERATED_CODE_DIR		:=va_benchmark_CODE
 GENN_USERPROJECT_INCLUDE	:=$(abspath $(dir $(shell which genn-buildmodel.sh))../userproject/include)
 CXXFLAGS 			+=-std=c++11 -Wall -Wpedantic -Wextra
 
